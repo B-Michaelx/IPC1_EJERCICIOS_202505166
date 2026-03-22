@@ -1,0 +1,5 @@
+com\mycompany\gestiondecursos\modelos\Elemento.class
+com\mycompany\gestiondecursos\modelos\Curso.class
+com\mycompany\gestiondecursos\modelos\Tarea.class
+com\mycompany\gestiondecursos\GestionDeCursos.class
+com\mycompany\gestiondecursos\servicios\GestorCursos.class
