@@ -1,0 +1,26 @@
+Pregunta 1
+¿Cuál es la complejidad Big-O de insertarOrdenado que implementaste? 
+La complejidad Big-o del método de insertarOrdenado es de O(n) en el peor de los casos.
+
+Porque si la lista esta vacía, la inserción es de O(1), si el nuevo nodo debe ir al inicio o al final, también es de O(1),
+en el peor de los casos el nuevo nodo debe insertarse en medio de la lista y es necesario recorrerla nodo por nodo hasta
+encontrar la posición correcta según la nota.
+Como la lista puede tener "n" elementos, en el peor de los casos se recorren todos los elementos, dando una complejidad lineal de O(n).
+
+Pregunta 2
+Para cada una de las siguientes operaciones, indica si sería más eficiente usar un Array o
+una Lista Enlazada y por qué:
+
+Buscar al estudiante con el carnet 202300001: Es más eficiente usar un Array, porque en un Array se puede acceder directamente por índice si está ordenado,
+o usar búsqueda binaria O(log n), en cambio en una Lista Enlazada no hay acceso aleatorio sino que hay que recorrer desde el inicio hasta encontrar el 
+elemento, lo que cuesta O(n).
+
+Agregar 500 estudiantes nuevos al inicio del registro: Es más eficiente usar una Lista Enlazada, porque en dicha lista solo requiere actualizar la cabeza,
+es O(1) pr cada inserción, por otro lado en el Array al agregar el inicio se debe desplazar todos los elementos existentes una posición hacia la derecha,
+lo que cuesta O(n) por cada inserción, para 500 inserciones, la diferencia es muy grande.
+
+Acceder directamente al 3er estudiante de la lista: Es mejor usar un Array, porque permite acceder directamente por índice, lo cual es O(1), en cambio en
+un Lista Enlazada hay que recorrer desde la cabeza hasta la tercera posición, pasando por los nodos 1, 2 y luego el 3, lo que cuesta O(n).
+
+Pregunta 3: En imagen en GitHub
+	 
